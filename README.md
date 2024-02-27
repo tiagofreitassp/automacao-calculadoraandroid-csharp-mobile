@@ -7,8 +7,6 @@ Script de automacao para realizar calculos basicos na calculadora do Android usa
 
 Realizar calculos basicos na calculadora do Android no emulador.
 
-Realizar calculos basicos na calculadora do Android no smartphone.
-
 ## Tecnologias:
 * [Java Jdk 8](https://www.oracle.com/br/java/technologies/javase-downloads.html)
 * [Maven](https://maven.apache.org)
@@ -36,11 +34,11 @@ Realizar calculos basicos na calculadora do Android no smartphone.
 ###  - App
 *Importante: 
 
-O app da calculadora é nativa do Android, não é necessario instalar desde que a versao do Android que voce vai testar tenha a calculadora instalada. 
+O app da calculadora é nativa do Android, não é necessario instalar desde que a versao do Android que voce vai testar tenha a calculadora instalada. A versão utilizada na criação deste projetou foi o Android 9 Pie.
 
-Nao é obrigatorio mas recomendado utilizar o APK Info para descobrir as informações como appActivity e appPackage. Tambem nao é obrigado a ter o Gmail configurado no Android, mas é recomendado para atualizações da plataforma.
+Nao é obrigatorio, mas é recomendado utilizar o APK Info para descobrir as informações como appActivity e appPackage. Tambem nao é obrigado ter o Gmail configurado no Android, mas é recomendado para atualizações da plataforma.
 
-Este projeto esta construido para executar no Android do Emulador do Android Studio e em algum aparelho fisico.
+Este projeto esta construido para executar no Android do Emulador do Android Studio e se voce desejar pode adicionar scripts para executar em um aparelho fisico.
 
 Utilize a versão 2 do Appium, pois as anteriores foram depreciadas e não possuem suporte do Desenvolvedor.
 
@@ -50,8 +48,6 @@ Utilize a versão 2 do Appium, pois as anteriores foram depreciadas e não possu
 O projeto foi criado no MacOS, e nao ha impedimento para executar no Windows ou Linux desde que tenha os aplicativos descritos em Dependencias.
 
 Os metodos para criar o driver Mobile estao na classe EmuladorDriver e MobileDriver.
-
-Recomendado utilizar o Visual Studio 2019 ou 2022.
 
 ###  - Fluxo
 *Descricao: Este script ira executar calculos simples como Soma, Subtracao, Multiplicacao e Divisao.
@@ -68,5 +64,4 @@ Nao e necessario criar massas.
 ###  - Inicializar a automação
 *Descricao:
 
-Execute o Appium e abra o Emulador do AS ou conecte o aparelho no computador.
-
+Execute o Appium e abra o Emulador do Android Studio.
