@@ -8,7 +8,7 @@ Script de automacao para realizar calculos basicos na calculadora do Android usa
 Realizar calculos basicos na calculadora do Android no emulador.
 
 ## Tecnologias:
-* [Java Jdk 8](https://www.oracle.com/br/java/technologies/javase-downloads.html)
+* [Java JDK 8+](https://www.oracle.com/br/java/technologies/javase-downloads.html)
 * [Maven](https://maven.apache.org)
 * [Appium 2+](http://appium.io)
 * [Selenium](https://www.selenium.dev/projects/)
@@ -16,7 +16,7 @@ Realizar calculos basicos na calculadora do Android no emulador.
 * [Android Studio](https://developer.android.com/studio)
 * [C Sharp](https://docs.microsoft.com/pt-br/dotnet/csharp/)
 * [NUnit](https://nunit.org)
-* [Visual Studio 2022](https://visualstudio.microsoft.com/pt-br/vs/)
+* [Visual Studio 2019+](https://visualstudio.microsoft.com/pt-br/vs/)
 * [Marketplace Visual Studio](https://marketplace.visualstudio.com)
 * [iText](https://itextpdf.com/en)
 
