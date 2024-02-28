@@ -34,11 +34,11 @@ Realizar calculos basicos na calculadora do Android no emulador.
 ###  - App
 *Importante: 
 
-O app da calculadora é nativa do Android, não é necessario instalar desde que a versao do Android que voce vai testar tenha a calculadora instalada. A versão utilizada na criação deste projetou foi o Android 9 Pie.
+O app da calculadora é nativa do Android, não é necessario instalar desde que a versao do Android que voce vai testar tenha a calculadora instalada. A versão utilizada na criação deste projeto foi o Android 9 Pie.
 
 Nao é obrigatorio, mas é recomendado utilizar o APK Info para descobrir as informações como appActivity e appPackage. Tambem nao é obrigado ter o Gmail configurado no Android, mas é recomendado para atualizações da plataforma.
 
-Este projeto esta construido para executar no Android do Emulador do Android Studio e se voce desejar pode adicionar scripts para executar em um aparelho fisico.
+Este projeto esta construido para executar no Android do Emulador do Android Studio e em um dispositivo Móvel físico.
 
 Utilize a versão 2 do Appium, pois as anteriores foram depreciadas e não possuem suporte do Desenvolvedor.
 
@@ -57,11 +57,11 @@ Os metodos para criar o driver Mobile estao na classe EmuladorDriver e MobileDri
 Nao e necessario criar massas.
 
 ###  - Evidencias
-*Importante: As evidencias estao sendo salvas na pasta evidencias(automacao-calculadoraandroid-csharp-mobile/automacao-calculadoraandroid-csharp-mobile/automacao-calculadoraandroid-csharp-mobile/bin/Release/netcoreapp3.1).
+*Importante: As evidencias estao sendo salvas na pasta evidencias(automacao-calculadoraandroid-csharp-mobile/automacao-calculadoraandroid-csharp-mobile/automacao-calculadoraandroid-csharp-mobile/bin/Release/net7.0/evidencias).
 
 *Descricao: A classe GeradorPDF.cs tira os screenshots e adiciona-os dentro de um documento em pdf e tambem salva-o dentro de evidencias.
 
 ###  - Inicializar a automação
 *Descricao:
 
-Execute o Appium e abra o Emulador do Android Studio.
+Execute o Appium e abra o Emulador do Android Studio ou dispositivo físico.
